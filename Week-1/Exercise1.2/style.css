@@ -1,0 +1,167 @@
+* {
+  font-family: Lato;
+  margin: 0;
+}
+
+.sidebar {
+  background: #efefef;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: calc(100% - 120px);
+}
+
+.menu-container {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu-item {
+  width: 50px;
+  height: 100%;
+}
+
+.menu-item:hover {
+  background: #e0e0e0;
+}
+
+.menu-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.song-container {
+  display: flex;
+  padding: 30px;
+  background-color: #3f3f3f;
+  margin-left: 50px;
+}
+
+.song-image {
+  width: 200px;
+  height: 200px;
+}
+
+.song-info-actions-container {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.song-description {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.song-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.song-artist {
+  color: white;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.song-more-info {
+  color: white;
+  font-size: 12px;
+}
+
+.song-action-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.song-action-btn:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.songs-list {
+  margin: 10px 10px 10px 60px;
+}
+
+.songs-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.songs-list-table > tbody > tr > td {
+  padding: 10px;
+}
+
+.songs-list-table > tbody > tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.catty-cloud-sync-btn {
+  background: transparent;
+  border: 1px solid;
+  color: rgb(47, 47, 109);
+}
+
+.active-song-container {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #44689b;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active-song-img-info-container {
+  display: flex;
+  align-items: center;
+}
+
+.active-song-image {
+  width: 100px;
+  height: 100px;
+}
+
+.active-song-info-container {
+  margin-left: 10px;
+}
+
+.active-song-name {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.active-song-artist {
+  color: white;
+  font-size: 12px;
+}
+
+.active-song-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.active-song-action-btn {
+  background: transparent;
+  border: 0px;
+  color: white;
+}
