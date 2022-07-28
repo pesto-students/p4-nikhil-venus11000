@@ -1,15 +1,15 @@
 # Exercise 1.1
 
-## 1. When a user enters an URL in the browser, how does the browser fetch the desiredresult ? Explain this with the below in mind and Demonstrate this by drawing a diagramfor the same.(2-3hours)
+## 1. When a user enters an URL in the browser, how does the browser fetch the desired result? Explain this with the below in mind and Demonstrate this by drawing a diagram for the same. (2-3hours)
 
-a. What is the main functionality of the browser?<br />
-b. High Level Components of a browser.<br />
-c. Rendering engine and its use.<br />
-d. Parsers (HTML, CSS, etc)<br />
-e. Script Processors<br />
-f. Tree construction<br />
-g. Order of script processing<br />
-h. Layout and Painting<br />
+A. What is the main functionality of the browser?<br />
+B. High Level Components of a browser.<br />
+C. Rendering engine and its use.<br />
+D. Parsers (HTML, CSS, etc)<br />
+E. Script Processors<br />
+F. Tree construction<br />
+G. Order of script processing<br />
+H. Layout and Painting<br />
 
 ## Solution
 
@@ -19,7 +19,7 @@ Web browsers are the most widely used software. In this primer, I will explain h
 
 ### The browsers we will talk about
 
-There are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chromeall of which, except for the Opera browsers, are based on WebKit. I will give examples from the open source browsers Firefox and Chrome, and Safari (which is partly open source). According to StatCounter statistics (as of June 2013) Chrome, Firefox and Safari make up around 71% of global desktop browser usage. On mobile, Android Browser, iPhone and Chrome constitute around 54% of usage.<br /><br />
+There are five major browsers used on desktop today: Chrome, Internet Explorer, Firefox, Safari and Opera. On mobile, the main browsers are Android Browser, iPhone, Opera Mini and Opera Mobile, UC Browser, the Nokia S40/S60 browsers and Chrome all of which, except for the Opera browsers, are based on WebKit. I will give examples from the open source browsers Firefox and Chrome, and Safari (which is partly open source). According to StatCounter statistics (as of June 2013) Chrome, Firefox and Safari make up around 71% of global desktop browser usage. On mobile, Android Browser, iPhone and Chrome constitute around 54% of usage.<br /><br />
 
 ### The browser's main functionality
 
